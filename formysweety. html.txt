@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy New Year My Cutiee 💖</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ff69b4, #ffc0cb, #ffb6c1);
+    color: #fff;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 2.6em;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.7;
+}
+
+.heart {
+    font-size: 70px;
+    animation: beat 1s infinite;
+}
+
+@keyframes beat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.25); }
+}
+
+button {
+    margin-top: 25px;
+    padding: 14px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 30px;
+    background: #ff1493;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff007f;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    margin-top: 45px;
+    font-size: 0.9em;
+    opacity: 0.9;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="heart">💖</div>
+
+    <h1>Happy New Year, My Cutiee 🌸</h1>
+
+    <p>
+        This page is only for you,<br>
+        because you are special to my heart 💕
+    </p>
+
+    <button onclick="showMessage()">Open my heart 🤍</button>
+
+    <p id="message" class="hidden">
+        You’re my cute, and only for me 💗<br><br>
+
+        This is made by your idiot,<br>
+        who thinks about you all the time 🤍<br><br>
+
+        Everything here is pink,<br>
+        because it reminds me of you 🌸<br><br>
+
+        I want to welcome this new year,<br>
+        and every next year, only with you ✨<br><br>
+
+        Anyway… in my heart,<br>
+        you’re already my wife 💕
+    </p>
+
+    <div class="footer">
+        Made with endless love 💖
+    </div>
+</div>
+
+<script>
+function showMessage() {
+    document.getElementById("message").classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
